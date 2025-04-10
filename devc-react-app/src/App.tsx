@@ -1,8 +1,13 @@
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import MainContent from "./components/MainContent";
+
 const App = () => {
   return (
     <div>
-      <h1>Welcome to React</h1>
-      <p>This is a simple React application.</p>
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   );
 }
